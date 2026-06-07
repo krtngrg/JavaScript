@@ -1,0 +1,27 @@
+button{
+  background-color:#39caa8 ;
+    color: black; 
+    font-size: 30px;
+}
+
+.label{
+
+  font-size: 4rem;
+  font-weight: 700;
+  color: #39caa8; 
+  letter-spacing: 2px;
+
+}
+div{
+    justify-content: center;
+}
+
+.block{
+    border: 1px solid black;
+    height: 200px;
+    width: 500px;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

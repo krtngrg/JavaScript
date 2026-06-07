@@ -15,10 +15,10 @@ let intervalId = null;
 start.onclick = function(){
     if(intervalId === null){
          intervalId = setInterval(()=>{
-        time.setMilliseconds(time.getMilliseconds()+1);
+        time.setMilliseconds(time.getMilliseconds()+10);
         DisplayTime(time);
         }
-,1);
+,10);
         console.log("intervalId: "+intervalId);
     }
     }
@@ -43,10 +43,9 @@ function DisplayTime(time){
 let hour = time.getHours().toString().padStart(2,"0");
 let Seconds = time.getSeconds().toString().padStart(2,"0");
 let minute = time.getMinutes().toString().padStart(2,"0");
-let ms = time.getMilliseconds().toString().padStart(2,"0");
+let ms = (time.getMilliseconds()/10).toString().padStart(2,"0");
 
 result.textContent = `${hour}:${minute}:${Seconds}:${ms}`;
-
 }
 
 
