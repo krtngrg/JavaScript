@@ -1,0 +1,38 @@
+button{
+    background-color:rgb(209, 38, 38);
+    font-size: 30px;
+}
+
+.label{
+
+  font-family: 'Orbitron', monospace;
+  font-size: 4rem;
+  font-weight: 700;
+  color: #ff0011; 
+  letter-spacing: 2px;
+  
+
+  text-shadow: 
+    0 0 4px #ff0011, 
+    0 0 10px #ff0011, 
+    0 0 20px #cc0000, 
+    0 0 40px #990000; 
+    
+  transform: skewX(-2deg); 
+
+}
+
+div{
+    justify-content: center;
+}
+
+.block{
+    border: 1px solid black;
+    height: 550px;
+    width: 900px;
+    background-image: url(./Clock.png);
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
