@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+<h1>Calculator</h1>
+<div class="whole">
+    <div class="display"><label id="result"></label></div>
+<div class="frame">
+    <button class="icon sepcial" onclick="clearicon()">❌</button>
+    <button class="icon sepcial" onclick="clearscreen()">AC</button>
+    <button class="icon sepcial" onclick="appendtoscreen('%')">%</button>
+    <button class="icon operator" onclick="appendtoscreen('/')" >÷</button>
+    <button class="icon" onclick="appendtoscreen(7)">7</button>
+    <button class="icon" onclick="appendtoscreen(8)">8</button>
+    <button class="icon" onclick="appendtoscreen(9)">9</button>
+    <button class="icon operator" onclick="appendtoscreen('*')">x</button>
+    <button class="icon" onclick="appendtoscreen(4)">4</button>
+    <button class="icon" onclick="appendtoscreen(5)">5</button>
+    <button class="icon" onclick="appendtoscreen(6)">6</button>
+    <button class="icon operator" onclick="appendtoscreen('-')">-</button>
+    <button class="icon" onclick="appendtoscreen(1)">1</button>
+    <button class="icon" onclick="appendtoscreen(2)">2</button>
+    <button class="icon" onclick="appendtoscreen(3)">3</button>
+    <button class="icon operator" onclick="appendtoscreen('+')">+</button>
+    <button class="icon" onclick="appendtoscreen('This one is under development')">()</button>
+    <button class="icon" onclick="appendtoscreen(0)">0</button>
+    <button class="icon" onclick="appendtoscreen('.')">.</button>
+    <button class="icon operator" onclick="evaluateExp()">=</button>
+</div>
+</div>
+    <script src="index.js"></script>
+</body>
+</html>

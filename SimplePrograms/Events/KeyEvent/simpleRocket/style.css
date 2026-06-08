@@ -1,0 +1,10 @@
+body{
+    background-color: black;
+}
+
+.space{
+    position: relative;
+    width: fit-content;
+    top: 10px;
+    left: 30px;
+}
