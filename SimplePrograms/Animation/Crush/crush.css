@@ -1,0 +1,35 @@
+body{
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* overflow: hidden; */
+}
+#btn2{
+    position: fixed;
+}
+
+#btn1:hover{
+    background-color: red;
+    transform: scale(1.1);
+    transition: .5s;
+}
+button{
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: white;
+    border-color: red;
+}
+
+.question{
+    position: absolute;
+}
+
+#answer{
+    position: relative;
+    top: 90px;
+}
+
+#btn1{
+    margin-right: 30px;
+}
