@@ -8,13 +8,18 @@
   })
 
   button.addEventListener("mouseover",(event)=>{
-
-    console.dir(window);
     let ycord = Math.trunc(Math.random()*(window.innerHeight - button.offsetHeight));
     let xcord = Math.trunc(Math.random()*(window.innerWidth - button.offsetWidth));
 
     button.style.left = `${xcord}px`;
     button.style.top =`${ycord}px`;
+
+     console.log(`calculated coordinate : ${ycord}, ${xcord}`); 
+   
+    const rect = button.getBoundingClientRect();
+    console.log(`Viewport coordinate : ${rect.top}, ${rect.left}`);
+
+
   })
 
 

@@ -36,7 +36,7 @@ button.addEventListener(type, function (e) {
 
 setTimeout(()=>{
     const rect = this.getBoundingClientRect();
-    console.log(`Viewport coordinate : ${rect.top}, ${rect.left}`);
+    console.log(`Viewport top:${rect.top} left:${rect.left}`);
 },2000);
 
 });
