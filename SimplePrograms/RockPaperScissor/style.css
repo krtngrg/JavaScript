@@ -1,0 +1,65 @@
+
+button{
+    background-color:rgb(209, 38, 38);
+    font-size: 30px;
+}
+
+.label{
+    font-size: 50px;
+}
+
+div{
+    justify-content: center;
+}
+
+.item{
+    height: 300px;
+    width: 300px;
+    background-position: center;
+    background-size: contain;
+    border-radius: 50%;
+    border: 5px solid black;
+    margin: 20px;
+}
+
+.space{
+    display: flex;
+}
+
+#scissor{
+    background-image: url(./siccor.png);
+}
+
+
+#paper{
+    background-image: url(./paper.png);
+}
+
+#rock{
+    background-image: url(./rock.png);
+}
+
+
+.board{
+     font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#result{
+    visibility: hidden;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.score{
+    width: 900;
+    height: 500px;
+    display: flex;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content:space-around;
+    font-weight: bold;
+}
+
+
